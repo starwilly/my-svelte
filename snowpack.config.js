@@ -19,6 +19,7 @@ module.exports = {
     ],
     "@snowpack/plugin-dotenv",
     "@snowpack/plugin-typescript",
+    "@snowpack/plugin-webpack",
   ],
   install: [
     /* ... */
