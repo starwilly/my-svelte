@@ -4,10 +4,7 @@
 
 <style>
     .repo-card {
-        border: 1px solid #ccc;
         width: 300px;
-        border-radius: 8px;
-        padding: 0.5em;
     }
 
     .avatar {
@@ -18,10 +15,10 @@
 
 </style>
 
-<div class="repo-card">
+<div class="repo-card border-gray-200 border-solid border px-6 py-4 m-3 shadow-md rounded">
 {#if repo}
     <img class="avatar" src={repo.owner.avatar_url} alt="owner">
-    <a href={repo.html_url} target="_blank">{repo.name}</a>
+    <a class="text-xl text-blue-900" href={repo.html_url} target="_blank">{repo.name}</a>
     star: {repo.stargazers_count}
 {/if}
 </div>

@@ -1,3 +1,9 @@
+<style global>
+	@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+</style>
 <script>
 	import {onMount} from 'svelte';
 import RepoCard from './RepoCard.svelte';
